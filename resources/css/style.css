@@ -14,18 +14,30 @@ body {
   color: hsl(0, 0%, 60%);
 }
 .container {
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   display: flex;
   align-items: center;
+
 }
 .flex {
   display: flex;
   align-items: center;
 }
+.banner {
+  display: flex;
+  justify-content: left;
+  padding-left: 2rem;
+}
 .bannermedia {
   width: 60%;
-  height: auto;
+  height: 100%;
   margin: 2rem 0;
+}
+
+.sidebar {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
 }
 /* HEADER */
 header {
@@ -44,9 +56,36 @@ header nav span {
   margin-right: 1rem;
 }
 header nav span:last-child {
-  margin-right: 1.5rem;
+  margin-right: 2rem;
 }
 /*"START HERE" BANNER #1*/
+.first {
+  background-color: hsl(0, 0%, 85%);
+}
+.main {
+  justify-content: center;
+}
+#slogan {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: 1.5rem;
+  width: 90%;
+}
+#nothing {
+  font-size: 1.5rem;
+  width: 80%;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1.25px;
+}
+#start {
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 85%);
+  text-align: center;
+  width: 90%;
+  padding: 1rem 0;
+  background-color: hsl(0, 0%, 30%);
+}
 
 /*INFORMATION BANNER #2*/
 
