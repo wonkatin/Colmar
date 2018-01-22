@@ -119,12 +119,17 @@ div.container.sidebar.second {
 }
 div.container.sidebar.second .items:first-child {
   border-bottom: solid 4px hsl(0, 0%, 90%);
+  margin-top: 2rem;
 }
 div.container.sidebar.second .items:last-child {
   background-color: hsl(0, 0%, 85%);
 }
 div.itemimage.orientation {
-  margin-top: 2rem;
+  margin-top: 0;
+
+}
+div.itemized.orientation{
+  padding-top: 0;
 }
 .items {
   display: flex;
@@ -140,10 +145,24 @@ div.itemimage.orientation {
   width: 100%;
   height: auto;
 }
-.itemized {
+div.itemized {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 63%;
+  padding-top: 1rem;
+}
+div.itemized span {
+  font-weight: 300;
+  line-height: 1.5;
+}
+div.itemized span:first-child {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+div.itemized span.readmore {
+  color: hsl(203, 100%, 66%);
+  font-weight: 500;
 }
 
 /*CLASSES BANNER #3*/
@@ -156,6 +175,13 @@ div.itemimage.orientation {
 .thesis {
   text-align: center;
   margin-top: 2rem;
+}
+div.container.sidebar.fourth .items:first-child {
+  background-color: hsl(0, 0%, 85%);
+  margin-top: 2rem;
+}
+div.itemimage.fisma {
+
 }
 
 /*FOOTER*/
