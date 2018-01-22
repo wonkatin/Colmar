@@ -1,0 +1,57 @@
+/* Universal Styles */
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 30%)
+}
+.bold {
+  font-weight: 700;
+}
+.light {
+  font-weight: 300;
+  color: hsl(0, 0%, 60%);
+}
+.container {
+  padding-left: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.bannermedia {
+  width: 60%;
+  height: auto;
+  margin: 2rem 0;
+}
+/* HEADER */
+header {
+  height: 4rem;
+  font-size: 1.5rem;
+}
+header img {
+  height: 3.5rem;
+  width: auto;
+}
+header.container {
+  justify-content: space-between;
+}
+header nav span {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+header nav span:last-child {
+  margin-right: 1.5rem;
+}
+/*"START HERE" BANNER #1*/
+
+/*INFORMATION BANNER #2*/
+
+/*CLASSES BANNER #3*/
+
+/*THESIS EXHIBIT BANNER #4*/
+
+/*FOOTER*/
