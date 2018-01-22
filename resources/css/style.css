@@ -29,15 +29,26 @@ body {
   padding-left: 2rem;
 }
 .bannermedia {
+  display: flex;
+  flex-direction: column;
   width: 60%;
   height: 100%;
+}
+.bannermedia img, video {
+  width: 100%;
+  height: auto;
   margin: 2rem 0;
 }
-
 .sidebar {
   flex-direction: column;
   align-items: flex-start;
   width: 40%;
+}
+.main2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1em;
+
 }
 /* HEADER */
 header {
@@ -88,9 +99,63 @@ header nav span:last-child {
 }
 
 /*INFORMATION BANNER #2*/
+.practice {
+  margin: 0 0 1.5rem 0;
+}
+#nothing2 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: 300;
+}
+#emmanuel {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+div.container.sidebar.second {
+  border-left: solid 1px hsl(0, 0%, 85%);
+  padding-left: 0;
+  margin-left: 2rem;
+}
+div.container.sidebar.second .items:first-child {
+  border-bottom: solid 4px hsl(0, 0%, 90%);
+}
+div.container.sidebar.second .items:last-child {
+  background-color: hsl(0, 0%, 85%);
+}
+div.itemimage.orientation {
+  margin-top: 2rem;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.itemimage {
+  width: 37%;
+  height: auto;
+  margin: 1rem;
+}
+.itemimage img {
+  width: 100%;
+  height: auto;
+}
+.itemized {
+  display: flex;
+  flex-direction: column;
+  width: 63%;
+}
 
 /*CLASSES BANNER #3*/
+.classes {
+  text-align: center;
+  margin-top: 2rem;
+}
 
 /*THESIS EXHIBIT BANNER #4*/
+.thesis {
+  text-align: center;
+  margin-top: 2rem;
+}
 
 /*FOOTER*/
