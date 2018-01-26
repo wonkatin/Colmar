@@ -6,6 +6,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: hsl(0, 0%, 30%);
   background-color: hsl(0, 0%, 93%);
+  overflow-x: hidden;
 }
 .bold {
   font-weight: 700;
@@ -153,6 +154,7 @@ div.itemized {
   justify-content: center;
   width: 63%;
   padding-top: 1rem;
+  padding-right: 1rem;
 }
 div.itemized span {
   font-weight: 300;
@@ -224,6 +226,20 @@ div.container.sidebar.fourth .items:first-child {
   background-color: hsl(0, 0%, 85%);
   margin-top: 2rem;
 }
+.bottomguy {
+  padding-bottom: 2rem;
+}
+#urban {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+#nothing3 {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
 
 /*FOOTER*/
 footer {
