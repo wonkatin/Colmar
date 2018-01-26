@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: hsl(0, 0%, 30%);
+  background-color: hsl(0, 0%, 93%);
 }
 .bold {
   font-weight: 700;
@@ -158,7 +159,7 @@ div.itemized span {
   line-height: 1.5;
 }
 div.itemized span:first-child {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 div.itemized span.readmore {
@@ -178,6 +179,9 @@ div.itemized span.readmore {
   justify-content: center;
   padding: 0 4.5rem 0 4.5rem;
   background-color: hsl(0, 0%, 85%);
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 .secondrow {
   padding-bottom: 2rem;
@@ -187,6 +191,10 @@ div.itemized span.readmore {
   display: flex;
   flex-direction: column;
   margin-right: 2rem;
+  background-color: hsl(0, 0%, 93%);
+  width: 33%;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .classes .class:last-child {
   margin-right: 0;
@@ -195,7 +203,18 @@ div.itemized span.readmore {
   width: 100%;
   height: auto;
 }
-
+.class span {
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+.courses {
+  padding-bottom: .5rem;
+}
+.subject {
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem 0;
+}
 /*THESIS EXHIBIT BANNER #4*/
 .thesis {
   text-align: center;
