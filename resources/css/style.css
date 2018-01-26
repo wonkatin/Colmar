@@ -52,6 +52,9 @@ body {
   line-height: 1em;
 
 }
+@media only screen and (max-width: 770px) {
+
+}
 /* HEADER */
 header {
   height: 4rem;
@@ -71,6 +74,25 @@ header nav span {
 header nav span:last-child {
   margin-right: 2rem;
 }
+span.mobileheader  {
+  display: none;
+}
+@media only screen and (max-width: 770px) {
+  span.desktopheader {
+    display: none;
+  }
+  nav.desktopheader {
+    display: none;
+  }
+  span.mobileheader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 2rem;
+
+  }
+}
+
 /*"START HERE" BANNER #1*/
 .first {
   background-color: hsl(0, 0%, 85%);
@@ -99,7 +121,9 @@ header nav span:last-child {
   padding: 1rem 0;
   background-color: hsl(0, 0%, 30%);
 }
+@media only screen and (max-width: 770px) {
 
+}
 /*INFORMATION BANNER #2 & #4*/
 .practice {
   margin: 0 0 1.5rem 0;
@@ -168,7 +192,9 @@ div.itemized span.readmore {
   color: hsl(203, 100%, 66%);
   font-weight: 500;
 }
+@media only screen and (max-width: 770px) {
 
+}
 /*CLASSES BANNER #3*/
 .learning {
   text-align: center;
@@ -188,7 +214,6 @@ div.itemized span.readmore {
 .secondrow {
   padding-bottom: 2rem;
 }
-
 .class {
   display: flex;
   flex-direction: column;
@@ -217,6 +242,9 @@ div.itemized span.readmore {
   font-weight: 400;
   padding: 1rem 0;
 }
+@media only screen and (max-width: 770px) {
+
+}
 /*THESIS EXHIBIT BANNER #4*/
 .thesis {
   text-align: center;
@@ -239,8 +267,9 @@ div.container.sidebar.fourth .items:first-child {
   font-size: 1.1rem;
   font-weight: 300;
 }
+@media only screen and (max-width: 770px) {
 
-
+}
 /*FOOTER*/
 footer {
   font-size: .9rem;
@@ -257,4 +286,7 @@ footer {
 }
 .details span:first-child {
   padding-right: 1rem;
+}
+@media only screen and (max-width: 770px) {
+
 }
