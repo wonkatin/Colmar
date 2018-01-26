@@ -302,8 +302,35 @@ div.itemized span.readmore {
   font-weight: 400;
   padding: 1rem 0;
 }
+.mobileclasses {
+  display: none;
+}
 @media only screen and (max-width: 770px) {
-
+.learning {
+  background-color: hsl(0, 0%, 93%);
+}
+.classes {
+  flex-direction: column;
+  background-color: hsl(0, 0%, 93%);
+  padding: 1rem;
+  border-bottom: solid 2px hsl(0, 0%, 90%);
+}
+.secondrow {
+  display: none;
+}
+.class {
+  display: none;
+}
+.mobileclasses {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mobileclasses span {
+  background-color: hsl(0, 0%, 85%);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
 }
 /*THESIS EXHIBIT BANNER #4*/
 .thesis {
@@ -328,7 +355,12 @@ div.container.sidebar.fourth .items:first-child {
   font-weight: 300;
 }
 @media only screen and (max-width: 770px) {
-
+  .bottomguy span {
+    display: none;
+  }
+  .fourth {
+    display: none;
+  }
 }
 /*FOOTER*/
 footer {
