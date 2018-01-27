@@ -249,22 +249,23 @@ div.itemized span.readmore {
   div.itemized.campus {
     padding-bottom: 1rem;
   }
-
   .items {
     display: flex;
     flex-direction: column;
     width: 100%;
     border-bottom: solid 2px hsl(0, 0%, 90%);
+    margin: 0 2rem;
   }
-  .itemimage {
+  div.itemimage {
     width: 100%;
-    margin: 0;
+    margin: 0 1rem;
   }
   .itemimage img {
     display: none;
   }
   img.mobilepic {
     display: flex;
+    align-items: center;
   }
   div.itemized {
     width: 90%;
