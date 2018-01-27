@@ -222,7 +222,6 @@ div.itemized span.readmore {
   color: hsl(203, 100%, 66%);
   font-weight: 500;
 }
-
 @media only screen and (max-width: 770px) {
   .desktopbanner {
     display: none;
@@ -241,7 +240,6 @@ div.itemized span.readmore {
   }
   div.itemimage.orientation {
     margin-bottom: 1rem;
-
   }
   div.itemized.orientation{
     padding-bottom: 1rem;
@@ -258,14 +256,17 @@ div.itemized span.readmore {
   }
   div.itemimage {
     width: 100%;
-    margin: 0 1rem;
+    margin: 0;
   }
   .itemimage img {
+    width: 100%;
     display: none;
+
   }
   img.mobilepic {
     display: flex;
     align-items: center;
+    width: 100%;
   }
   div.itemized {
     width: 90%;
