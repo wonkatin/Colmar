@@ -101,7 +101,7 @@ span.mobileheader  {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-right: 2rem;
+    padding: 0 2rem;
 
   }
 }
@@ -219,6 +219,7 @@ div.itemized span.readmore {
   color: hsl(203, 100%, 66%);
   font-weight: 500;
 }
+
 @media only screen and (max-width: 770px) {
   .desktopbanner {
     display: none;
@@ -235,13 +236,26 @@ div.itemized span.readmore {
     background-color: hsl(0, 0%, 93%);
     padding-bottom: 2rem;
   }
+  div.itemimage.orientation {
+    margin-bottom: 1rem;
+
+  }
+  div.itemized.orientation{
+    padding-bottom: 1rem;
+  }
+  div.itemized.campus {
+    padding-bottom: 1rem;
+  }
+
   .items {
     display: flex;
     flex-direction: column;
     width: 100%;
+    border-bottom: solid 2px hsl(0, 0%, 90%);
   }
   .itemimage {
     width: 100%;
+    margin: 0;
   }
   .itemimage img {
     display: none;
@@ -312,7 +326,7 @@ div.itemized span.readmore {
 .classes {
   flex-direction: column;
   background-color: hsl(0, 0%, 93%);
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   border-bottom: solid 2px hsl(0, 0%, 90%);
 }
 .secondrow {
@@ -380,5 +394,10 @@ footer {
   padding-right: 1rem;
 }
 @media only screen and (max-width: 770px) {
-
+  footer {
+    margin-left: 2rem;
+  }
+  .details {
+    display: none;
+  }
 }
