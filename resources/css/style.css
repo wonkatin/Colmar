@@ -62,6 +62,9 @@ body {
   .bannermedia {
     width: 100%;
   }
+  .bannermedia img {
+    margin-top: 0;
+  }
   .sidebar {
     width: 100%;
     margin: 0;
